@@ -1,5 +1,7 @@
 body {
     background: wheat;
+    border-style: dotted;
+    border-color: aquamarine;
 }
 h1 {
     text-align: center;
@@ -23,12 +25,17 @@ body #steve {
     margin-right: auto;
 
 }
+.facts {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; 
+}
 .awards {
     margin-left: auto;
     margin-right: auto;
 }
 .button {
-    background-color: aquamarine; /* Green */
+    background-color: aquamarine;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -39,3 +46,6 @@ body #steve {
     margin-right: auto;
     font-size: 16px;
   }
+button:hover {
+    background-color: blueviolet;
+}
