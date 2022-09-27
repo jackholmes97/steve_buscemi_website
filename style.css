@@ -4,5 +4,38 @@ body {
 h1 {
     text-align: center;
     background-color: aquamarine;
-    padding: 20px;
 }
+h2 {
+    text-align: center;
+}
+body #steve {
+    border-radius: 25%;
+    max-height: 500px;
+    max-width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bio {
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.awards {
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    background-color: aquamarine; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+  }
